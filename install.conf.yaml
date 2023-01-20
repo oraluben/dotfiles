@@ -1,0 +1,24 @@
+- create:
+    - ~/.zshrc
+    - ~/.ssh/config
+
+- link:
+    ~/.zshrc.shared:
+      relink: true
+      path: zshrc
+    ~/.ssh/config.shared:
+      relink: true
+      path: ssh_config
+    ~/.tmux.conf:
+      relink: true
+      path: tmux.conf
+
+- shell:
+  -
+    command: "grep -qxF 'source ~/.zshrc.shared' ~/.zshrc || sed -i.old -e '1 i\\\nsource ~/.zshrc.shared\\\n' ~/.zshrc"
+    description: Prepend shared zshrc content to the begin of zshrc
+    quiet: true
+  -
+    command: "grep -qxF 'Include config.shared' ~/.ssh/config || sed -i.old -e '1 i\\\nInclude config.shared\\\n' ~/.ssh/config"
+    description: Prepend shared ssh_config content to the begin of ssh_config
+    quiet: true
