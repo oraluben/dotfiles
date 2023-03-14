@@ -157,6 +157,7 @@ alias ll='ls -l'
 zstyle ':completion:*:complete:-command-:*:*' ignored-patterns '*.pdf|*.exe|*.dll'
 
 export PATH=~/.local/bin:$PATH
+export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 
 export LC_ALL=en_US.UTF-8
 
