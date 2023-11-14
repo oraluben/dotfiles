@@ -1,6 +1,6 @@
 # Host github.com
-#   ProxyCommand          nc -X connect -x 127.0.0.1:7890 %h %p
-#   ServerAliveInterval   10
+#     ProxyCommand          nc -X connect -x 127.0.0.1:7890 %h %p
+#     ServerAliveInterval   10
 
 Host *
     ServerAliveInterval 120

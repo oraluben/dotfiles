@@ -55,12 +55,11 @@ antigen use oh-my-zsh
 antigen bundle git
 # antigen bundle heroku
 antigen bundle pip
-antigen bundle svn-fast-info
 # antigen bundle command-not-find
 
 antigen bundle colorize
 antigen bundle github
-antigen bundle python
+# antigen bundle python
 antigen bundle rupa/z z.sh
 # antigen bundle z
 
