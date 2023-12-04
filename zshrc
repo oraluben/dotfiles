@@ -170,3 +170,4 @@ export ELECTRON_CUSTOM_DIR="{{ version }}"
 export GPG_TTY=$(tty)
 
 alias update='brew update && brew upgrade && sdk update && sdk selfupdate'
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
