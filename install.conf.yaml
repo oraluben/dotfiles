@@ -12,6 +12,9 @@
     ~/.tmux.conf:
       relink: true
       path: tmux.conf
+    ~/.logseq/config/plugins.edn:
+      relink: true
+      path: logseq_plugins.edn
 
 - shell:
   -
