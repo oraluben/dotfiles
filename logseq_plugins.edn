@@ -1,1 +1,4 @@
-{:logseq-tabs {:version "v1.18.3", :repo "pengx17/logseq-plugin-tabs", :effect true, :theme false}}
+{:logseq-tabs {:version "v1.18.3", :repo "pengx17/logseq-plugin-tabs", :effect true, :theme false}
+ :logseq-dracula-theme {:version nil, :repo "dracula/logseq", :effect false, :theme true}
+ :logseq-plugin-gpt3-openai {:version "v1.10.0", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
+ :logseq-plugin-show-weekday-and-week-number {:version "v1.44.0", :repo "YU000jp/logseq-plugin-show-weekday-and-week-number", :effect true, :theme false}}
